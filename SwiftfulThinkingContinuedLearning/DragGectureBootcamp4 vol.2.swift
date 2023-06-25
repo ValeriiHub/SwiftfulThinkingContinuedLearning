@@ -42,6 +42,11 @@ struct DragGectureBootcamp4_vol_2: View {
                         }
                 )
             
+            VStack(alignment: .leading) {
+                Text("currentDragOffsetY = \(startingOffsetY)")
+                Text("currentDragOffsetY = \(currentDragOffsetY)")
+                Text("currentDragOffsetY = \(endingOffsetY)")
+            }
         }
         .ignoresSafeArea(edges: .bottom)
     }
@@ -52,8 +57,6 @@ struct DragGectureBootcamp4_vol_2_Previews: PreviewProvider {
         DragGectureBootcamp4_vol_2()
     }
 }
-
-
 
 struct MySignUpView: View {
     var body: some View {

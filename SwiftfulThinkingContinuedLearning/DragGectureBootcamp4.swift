@@ -68,7 +68,7 @@ struct DragGectureBootcamp4: View {
         let currentAmount = offset.width
         let percentage = currentAmount / max
         let percentageAsDouble = Double(percentage)
-        let maxAngle = 10.0
+        let maxAngle: Double = 10.0
         return percentageAsDouble * maxAngle
     }
 }
