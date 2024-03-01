@@ -15,7 +15,7 @@ class CoreDataViewModel: ObservableObject {
     let container: NSPersistentContainer
     
     init() {
-        self.container = NSPersistentContainer(name: "FruitsContainer")
+        container = NSPersistentContainer(name: "FruitsContainer")
         container.loadPersistentStores { description, error in
             if let error = error {
                 print("ERROR LOADING CORE DATE. \(error)")

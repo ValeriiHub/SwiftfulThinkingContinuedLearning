@@ -25,8 +25,16 @@ class CoreDataReletionsheepViewModel: ObservableObject {
     }
     
     func save() {
-        manager.save()
-        getBusiness()
+        businesses.removeAll()
+        departments.removeAll()
+        empoyees.removeAll()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.manager.save()
+            self.getBusiness()
+            self.getDepartments()
+            self.getEmployees()
+        }
     }
     
     // FETCH
@@ -85,16 +93,16 @@ class CoreDataReletionsheepViewModel: ObservableObject {
         newBusiness.name = "Facebook"
         
         
-//         // add existing departments to the new business
+         // add existing departments to the new business                - добавляем существующие отделы в новый бизнес
 //         newBusiness.departments = [departments[0], departments[1]]
-//
-//         // add existing employees to the new business
+
+         // add existing employees to the new business -                - добавляем существующих сотрудников в новый бизнес
 //         newBusiness.employees = [empoyees[1]]
-//
-//         // add new business to the existing department
+
+         // add new business to the existing department                 - добавить новый бизнес в существующий отдел
 //         newBusiness.addToDepartments(<#T##value: DepartmentEntity##DepartmentEntity#>)
-//
-//         // add new business to existing employee
+
+         // add new business to existing employee                       - добавить новый бизнес к существующему сотруднику
 //         newBusiness.addToEmployees(<#T##value: EmployeeEntity##EmployeeEntity#>)
          
         
@@ -130,7 +138,7 @@ class CoreDataReletionsheepViewModel: ObservableObject {
     
     // DELETE
     func deleteDepartment() {
-        let department = departments[2]
+        let department = departments[1]
         manager.context.delete(department)
         
         save()
@@ -195,4 +203,3 @@ struct CoreDataReletionsheepBootcamp16_Previews: PreviewProvider {
         CoreDataReletionsheepBootcamp16()
     }
 }
-

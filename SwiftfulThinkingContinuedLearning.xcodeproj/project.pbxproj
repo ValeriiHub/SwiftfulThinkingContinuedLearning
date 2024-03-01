@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3808656B2B91EBA400E50D8B /* BackgroundThreadBootcamp17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3808656A2B91EBA300E50D8B /* BackgroundThreadBootcamp17.swift */; };
 		38AC2D022B6BC323006B05CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AC2D012B6BC323006B05CA /* ContentView.swift */; };
 		38AC2D042B6BC32C006B05CA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AC2D032B6BC32C006B05CA /* Persistence.swift */; };
 		38AC2D072B6BC345006B05CA /* CoreDataBootcamp14.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38AC2D052B6BC345006B05CA /* CoreDataBootcamp14.xcdatamodeld */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3808656A2B91EBA300E50D8B /* BackgroundThreadBootcamp17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp17.swift; sourceTree = "<group>"; };
 		38AC2D012B6BC323006B05CA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		38AC2D032B6BC32C006B05CA /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		38AC2D062B6BC345006B05CA /* CoreDataBootcamp14.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataBootcamp14.xcdatamodel; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				38AC2CE12B6BC17E006B05CA /* CoreDataBootcamp14 */,
 				55780C6C2A0E5D7E00B64C74 /* CoreDataMVVMBootcamp15 */,
 				5581D9912A6D38E300372B5D /* CoreDataReletionsheepBootcamp16 */,
+				3808656A2B91EBA300E50D8B /* BackgroundThreadBootcamp17.swift */,
 				555BFE47298FE0C700F6C05B /* FileManagerBootcamp26.swift */,
 				5534E6E62993A5D600167877 /* Sounds */,
 				555BFE3D298FE06B00F6C05B /* Assets.xcassets */,
@@ -173,9 +176,9 @@
 		5581D9912A6D38E300372B5D /* CoreDataReletionsheepBootcamp16 */ = {
 			isa = PBXGroup;
 			children = (
+				552565122A6D2F1500C9E742 /* CoreDataReletionsheepBootcamp16.swift */,
 				55751A3B2A6F27AA000CC776 /* CoreDataManager.swift */,
 				5581D98E2A6D380700372B5D /* CoreDataContainer.xcdatamodeld */,
-				552565122A6D2F1500C9E742 /* CoreDataReletionsheepBootcamp16.swift */,
 				55751A372A6F0D39000CC776 /* BusinessView.swift */,
 				55751A392A6F266A000CC776 /* DepartmentView.swift */,
 				55751A592A6FCF38000CC776 /* EmployeeView.swift */,
@@ -264,6 +267,7 @@
 				5581D9902A6D380700372B5D /* CoreDataContainer.xcdatamodeld in Sources */,
 				55751A3C2A6F27AA000CC776 /* CoreDataManager.swift in Sources */,
 				55BBE7BE29D72063003ED0EC /* GeometryReaderBootcamp6.swift in Sources */,
+				3808656B2B91EBA400E50D8B /* BackgroundThreadBootcamp17.swift in Sources */,
 				55BF52BA2A1E855B00DC4C4A /* RotationGestureBootcamp3.swift in Sources */,
 				38AC2D042B6BC32C006B05CA /* Persistence.swift in Sources */,
 				55751A382A6F0D39000CC776 /* BusinessView.swift in Sources */,
