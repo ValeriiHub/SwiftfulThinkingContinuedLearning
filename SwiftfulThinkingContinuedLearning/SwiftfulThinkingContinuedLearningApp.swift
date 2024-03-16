@@ -14,7 +14,7 @@ struct SwiftfulThinkingContinuedLearningApp: App {
     
     var body: some Scene {
         WindowGroup {
-            WeakSelfBootcamp18()
+            DownloadWithEscapingBootcamp21()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)   // core data bootcamp 14
         }
     }
